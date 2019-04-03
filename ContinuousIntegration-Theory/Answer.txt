@@ -1,1 +1,4 @@
-
+The need for automatic deployment can be fulfilled by Continuous Integration tool i.e jenkins
+As the code is in shared repository, a CI/CD pipline can be can be configured using jenkins which has webhooks.
+You can set the trigger to manaual or automatic, as soon as there is a new upadte it will change the versions and build the conatainer it self.
+also it will deploy the conatiner to a testing environment and diffrent test cases can be executed.
